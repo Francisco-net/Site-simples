@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+/*Nav do Header*/
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: #000505;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+nav .icon{
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+
+nav ul li{
+    margin: 0 2px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+nav ul li:hover a{
+    background-color: #fff;
+    color: #000505;
+}
+
+nav .search-box{
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+
+nav .search-box input{
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 0 20px;
+    width: 350px;
+}
+
+nav .search-box i{
+    font-size: 20px;
+    background: #5D5D81;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/*Nav de produtos*/
+
+.nav-products{
+    display: flex;
+    height: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 15px;
+    background-color: #3B3355;
+}
+
+.nav-products i{
+    display: inline-block;
+    color: #FEFCFD;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.nav-products i:hover{
+    cursor: pointer;
+
+}
+
+
+.nav-products label{
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 14%;
+}
+
+.nav-products input{
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    background: none;
+}
+
+.nav-products input:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+/*Sessão HERO, fala sobre a loja*/
+
+.hero-section{
+    display: flex;
+    background-image: url(https://img.goodfon.com/original/1920x1080/b/b6/music-musical-instrument-guitar-two-dark-background.jpg);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.hero-section p{
+    text-align: left;
+    width: 500px;
+}
+
+.hero-info{
+    margin-left: 10%;
+    font-size: 25px;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+}
+
+.content-filter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 25px;
+    padding: 15px;  
+    padding-left: 30px; 
+}
+
+.content-filter input{
+    height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: none;
+    border-top: 2px solid #000505;
+    background-color: #FEFCFD;
+    transition: 0.4s;
+}
+
+.content-filter input:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+
+
+
+.content-cards{
+    display: flex;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+
+
+.cards{
+    margin-left: 15%;
+    padding: 20px;
+    width: 250px;
+    transition: 0.4s;
+}
+
+.cards img{
+    border-radius: 8px;
+    max-width: 150px;
+}
+
+.cards:hover{
+    box-shadow: 0 0 5px #000505;;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cards span{
+    margin-right: 5px;
+}
+
+.cards h4, p, label{
+    padding: 5px;
+    text-align: left;
+}
+
+.cards h3, b{
+    color: #499167;
+}
+
+#cards-p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cards input{
+    cursor: pointer;
+    padding: 5px;
+    background-color: #3B3355;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: -5px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+}
